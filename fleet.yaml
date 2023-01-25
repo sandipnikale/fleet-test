@@ -1,1 +1,7 @@
+defaultNamespace: argocd
+targetCustomizations:
+- name: qa
+  helm:
+    values:
+      replication: false
 
