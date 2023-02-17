@@ -1,5 +1,5 @@
 
-
+defaultNamespace: datadog
 helm:
   chart: datadog
   force: true
