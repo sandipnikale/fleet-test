@@ -1,10 +1,12 @@
 
 defaultNamespace: datadog
+
 helm:
   chart: datadog
   force: tue
   repo: https://helm.datadoghq.com
-  releaseName: 3.3.1
+  releaseName: datadog
+  version: 3.3.1
   values:
     resoruces:
       requests:
