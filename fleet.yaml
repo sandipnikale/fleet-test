@@ -1,3 +1,18 @@
-kustomize:
-  dir: ./overlays
+
+defaultNamespace: datadog
+helm:
+  chart: datadog
+  force: tue
+  repo: https://helm.datadoghq.com
+  releaseName: 3.3.1
+  values:
+    resoruces:
+      requests:
+        cpu: 200m
+        memory: 256Mi
+                
+yaml:
+   overlays:
+   - template
+        
 
