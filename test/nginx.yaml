@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: mypod
-    image: nginx
+    image: busybox
 ---
     
 apiVersion: v1
