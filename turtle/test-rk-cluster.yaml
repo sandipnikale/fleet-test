@@ -6,7 +6,7 @@ metadata:
     cluster-api.cattle.io/rancher-auto-import: "true"
     cni: external
     csi: external
-  name: test-rk
+  name: test-rk-sandip
   namespace: ns-vzxcs
 spec:
   controlPlaneRef:
