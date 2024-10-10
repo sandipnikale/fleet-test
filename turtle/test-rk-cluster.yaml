@@ -7,7 +7,7 @@ metadata:
     cni: external
     csi: external
   name: test-rk-sandip
-  namespace: ns-vzxcs
+  namespace: ns-vzxcss
 spec:
   controlPlaneRef:
     apiVersion: controlplane.cluster.x-k8s.io/v1alpha1
