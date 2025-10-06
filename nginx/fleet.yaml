@@ -1,6 +1,10 @@
-targets:
+defaultNamespace: ""
+targetCustomizations:
 - name: test
-  clusterSelector: {}
   namespaceSelector:
     matchLabels:
       field.cattle.io/projectId: "p-tzd8d"
+  yaml:
+    overlays:
+      - patch.yaml
+
