@@ -1,4 +1,4 @@
-# If you're testing on a single cluster, you can simplify:
+defaultNamespace: "" # If you're testing on a single cluster, you can simplify:
 targetCustomizations:
 - name: test
   namespaceSelector:
