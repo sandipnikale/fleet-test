@@ -1,0 +1,10 @@
+targetCustomizations:
+- name: project-a-namespaces
+  clusterSelector:
+    matchLabels:
+      # Target specific cluster(s) if needed
+      management.cattle.io/cluster-name: "mycluster"
+  namespaceSelector:
+    matchLabels:
+      # This targets all namespaces in Project A
+      field.cattle.io/projectId: "p-tzd8d"
