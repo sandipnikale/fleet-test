@@ -1,4 +1,7 @@
 # fleet.yaml
 defaultNamespace: default # placeholder; actual mapping is done later
 
+labels:
+  app: nginx-bundle
+
 
