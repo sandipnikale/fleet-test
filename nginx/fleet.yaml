@@ -1,6 +1,6 @@
 defaultNamespace: "" # If you're testing on a single cluster, you can simplify:
 targetCustomizations:
- defaultNamespace: ""
+ 
  - name: test
    namespaceSelector:
      matchLabels:
