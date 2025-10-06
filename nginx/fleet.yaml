@@ -1,6 +1,7 @@
 defaultNamespace: "" # If you're testing on a single cluster, you can simplify:
 targetCustomizations:
-- name: test
-  namespaceSelector:
-    matchLabels:
-      field.cattle.io/projectId: "p-tzd8d"
+ defaultNamespace: ""
+ - name: test
+   namespaceSelector:
+     matchLabels:
+       field.cattle.io/projectId: "p-tzd8d"
