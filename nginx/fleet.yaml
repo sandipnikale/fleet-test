@@ -1,10 +1,4 @@
-defaultNamespace: ""
-targetCustomizations:
-- name: test
-  namespaceSelector:
-    matchLabels:
-      field.cattle.io/projectId: "p-tzd8d"
-  yaml:
-    overlays:
-      - patch.yaml
+# fleet.yaml
+defaultNamespace: default # placeholder; actual mapping is done later
+
 
